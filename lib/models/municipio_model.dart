@@ -1,3 +1,7 @@
+// To parse this JSON data, do
+//
+//     final municipio = municipioFromJson(jsonString);
+
 import 'dart:convert';
 
 import 'package:parla/models/votos_partido_model.dart';

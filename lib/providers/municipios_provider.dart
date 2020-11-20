@@ -73,7 +73,7 @@ class MunicipiosProvider {
     if (lstMunicipios.length == 0) {
       await cargarMunicipios();
     }
-    // Código incompleto a implementar
+    lvp = lstMunicipios[lstMunicipios.length - 1].listaVotosPartido();
     await new Future.delayed(const Duration(seconds: 1));
     return lvp;
   }
